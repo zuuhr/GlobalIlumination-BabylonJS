@@ -1,0 +1,31 @@
+{
+  "name": "webgpu_globalillumination_babylonjs",
+  "version": "1.0.0",
+  "description": "Real-time WebGPU Global Illumination for BabylonJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
+  },
+  "keywords": [
+    "BabylonJS",
+    "Global",
+    "Illumination",
+    "Shaders",
+    "WebGPU",
+    "WGSL"
+  ],
+  "author": "Mariam Baradi Del Alamo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^7.8.2",
+    "@babylonjs/inspector": "^7.8.2",
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}

@@ -34,3 +34,6 @@ Every frame, the final SSAO + SSDO combination will be weighted with previous fr
 
 ### Pixel rejection on skybox pixels
 This is an optimization that reduces computation costs if large areas of the screen are skybox. 
+
+## Acknowledgements
+I’m very grateful for **Jorge Felix-López Moreno**’s help throughout my work, especially on answering my questions on rendering!
